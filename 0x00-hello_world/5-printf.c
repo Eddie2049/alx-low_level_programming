@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main: entry point
+ * main - entry point
  * program prints specific message
  * only uses printf
- * return: always 0
+ * Return: always 0
  */
 
 int main(void)
