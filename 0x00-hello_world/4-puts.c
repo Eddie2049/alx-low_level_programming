@@ -7,6 +7,7 @@
  * uses puts function
  * Return: ends with a value of 0
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
