@@ -1,4 +1,6 @@
 #include "main.h"
+#include "_putchar.h"
+#include "1-alphabet.h"
 
 /**
  * main - entry point
