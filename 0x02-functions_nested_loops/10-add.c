@@ -1,4 +1,5 @@
 #include "_putchar.h"
+#include "main.h"
 #include "10-add.h"
 
 /**
