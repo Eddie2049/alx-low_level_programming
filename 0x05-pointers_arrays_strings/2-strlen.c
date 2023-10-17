@@ -3,7 +3,7 @@
 /**
  * _strlen - returns the length of a string
  * @s: sring param
- * 
+ *
  * Return: int length of string
 */
 
