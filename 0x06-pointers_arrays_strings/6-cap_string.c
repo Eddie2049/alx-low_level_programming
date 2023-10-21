@@ -10,26 +10,23 @@
 char *cap_string(char *s)
 {
 	char *p;
-	int yes_;
+	int yes_, add_;
 
 	yes_ = 0;
+	add_ = 0;
 	p = s;
+	
 
-	while (*s)
+	for (; *s != '\0'; add_++)
 	{
 		if (*s  == ' ' || *s == '\t' || *s == '\n'
 			|| *s == ',' || *s == ';' ||
 			*s == '.' || *s == '!' || *s == '?'
 			|| *s == '"' || *s == '(' ||
 			*s == ')' || *s == '{' || *s == '}')
-		{
-			yes_ = 1;
-		}
-		else if (yes_)
-		{
+		{}
 			if (*s >= 'a' && *s <= 'z')
 				*s -= 32;
-
 			yes_ = 0;
 		}
 		s++;
