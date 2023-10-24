@@ -5,7 +5,7 @@
   *
   * @s: param
   *
-  * @accept: param
+  * @accept:co param
   *
   * Return: always 0.
   */
