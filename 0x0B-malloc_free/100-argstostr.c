@@ -4,9 +4,9 @@
 /**
  * argstostr - main entry	concatenates
  * all the arguments of your program
- * @ac: int input
- * @av: double pointer array
- * Return: cahr * pointer
+ * @ac: param 1
+ * @av: param 2
+ * Return: char * pointer
  */
 
 char *argstostr(int ac, char **av)
