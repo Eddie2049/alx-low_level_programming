@@ -31,8 +31,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if ((*p == '/' && n2 == 0) ||
-		(*p == '%' && n2 == 0))
+	if ((*p == '/' && n2 == 0) || (*p == '%' && n2 == 0))
 	{
 		printf("Error\n");
 		exit(100);
